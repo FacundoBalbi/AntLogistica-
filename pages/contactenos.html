@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/Logo.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>AntLogistica</title>
+</head>
+<body>  
+    <header>        
+        <nav class="navbar">
+            <div class="grid-menu">                      
+                <div class="item1">
+                    <a href="../index.html"><img src="../assets/img/AntLogistica.jpg" class="logo"></a>
+                </div>
+            
+                <div class="item2">
+                    <ul class="contacto">                    
+                        <li>
+                            <a href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="item3">
+                    <ul class="menu">
+                        <li>
+                            <a href="../index.html">Inicio</a>  
+                        </li>
+                        <li>
+                            <a href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                            <!--futuramente va estar esta pag pero todavia estoy planeando que ponerle
+                            <li>
+                            <a href="./pages/servicios.html">Servicios</a>
+                            </li>
+                            -->
+                        <li>
+                            <a href="../pages/recomendacion.html">Recomendacion</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contáctenos</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+                    <div class="menu-bar">
+                        <i class="fa-solid fa-bars"></i> 
+                    </div>
+            </div>
+        </nav>       
+    </header>
+
+<main class="back-general">
+    <div>
+        <h1 class="titulo">Contáctenos</h1>
+        <h2 class="parrafo">Tu espacio para contarnos y brindarle nuestro mejor servicio</h2>
+        <h2 class="parrafo">a la vez de la respuesta y solucion a su problema</h2>
+        <form action="procesar.php" method="post"></form>
+    </div>
+
+    <div class="tabla__contactenos">
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input class="input"  type="text" name="nombre" placeholder="ingresa tu nombre">
+        </p><br>
+
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input class="input" type="text" name="apellido" placeholder="ingresa tu apellido">
+        </p><br>
+
+        <p>
+            <label for="email">Email:</label>
+            <input class="input" type="email" name="email" placeholder="usuario@servidor.com">        
+        </p><br>
+
+
+        <p>
+            <label for="tel">Telefono:</label>
+            <input class="input" type="tel" name="number" placeholder="11-2345-6789">
+        </p><br>
+
+        <p>
+            <label for="text">Asunto:</label>
+            <input class="input" type="text" name="text" placeholder="">
+        </p><br>
+
+        <h4>Dejame tu comentario</h4>
+
+        <textarea class="zona-comentario" name="comentario" id="" cols="70" rows="13"></textarea>
+
+        <p>
+            <input class="input" type="submit" value="Enviar">
+        </p>    
+    </div>
+</main>
+
+<footer class="footer">
+    <section>
+        <div class="footer__grid">
+            <div class="div1">
+                <h2 class="antlogistica__1">AntLogistica</h2>
+            </div>
+    
+            <div class="div2">
+                <div class="datos">  
+                    <p class="datos__cap">Capital Federal</p>
+                </div>
+            </div>
+            
+            <div class="div3">
+                <div class="datos">
+                    <p>Av.Cordoba 4800</p>
+                    <p>Villa Crespo,Capital Federal</p>
+                    <p>Argentina 1414</p>           
+                    <P>Tel:+54 11 2345-6789</P>
+                </div>
+            </div>
+            
+            <div class="div4">
+                <a href="https://www.instagram.com/antlogistica/" target="blank"><img src="../assets/img/instagram.png " alt="Instagram" width="50"></a>          
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img src="../assets/img/email.png" alt="Email" width="50"></a>
+            </div>
+    
+            <div class="div5"></div>
+            <div class="div6"></div>
+    
+            <div class="div7">
+                <nav class="final">
+                    <div class="div__final">            
+                        <p class="caja1__footer">antlogistica@gmail.com</p>
+            
+                        <a href="../pages/contactenos.html">
+                            <p class="caja2__footer">Contactenos</p>
+                        </a>
+            
+                        <a href="../index.html">
+                            <p class="caja3__footer">Inicio<p>                    
+                        </a>
+            
+                        <a href="../pages/contacto.html">
+                            <p class="caja4__footer">Contacto</p>
+                        </a>
+            
+                            <p class="caja5__footer">AntLogistica Copyright 2022</p>
+                    </div>       
+                </nav>
+            </div>
+        </div>                               
+    </section>
+</footer>
+
+</body>
+</html>    
