@@ -1,115 +1,10 @@
 *{text-decoration: none;}
 
 *{margin:0}
+*{padding:0;}
 
-/*header*/
-.grid-menu{
-    display: grid;
-    grid-template-areas:'logo  contacto'
-                        'logo  menu';
-}
-
-
-.item1{
-    grid-area: logo;
-    width: 520px;
-    height: 110px;
-}
-.logo{
-    width: 520px;
-    height: 100.98px;
-}
-
-.item2{
-    grid-area: contacto;
-    height: 50px;    
-}
-
-.contacto{
-    opacity: 70%;
-    list-style: none;
-    text-align: end;
-    padding: 22px 20px 10px 10px;
-
-}
-.contacto a{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(48, 48, 48);
-}
-
-.contacto a:hover{
-    background-color: #a4a3a3;
-}
-
-.item3{
-    grid-area: menu;
-    height: 35px;
-}
-
-.menu{
-    display: flex;
-    opacity: 70%;
-    justify-content: space-between;
-    list-style: none;
-    position: relative;
-    padding: 10px 20px 10px 150px;
-    text-align: end;
-}
-
-.menu a{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(48, 48, 48);
-}
-
-.menu a:hover{
-    background-color: #a4a3a3;
-}
 /*main*/
-.imagen{
-    background-image: url('../assets/img/caja.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 100%;
-    height: 540px;       
-}
 
-
-.contactenos{
-    width: 900px;
-    opacity: 80%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    left: 300px ;
-    top: 300px;
-    color: white;
-}
-
-.div__contactenos{
-    font-family: 'Montserrat', sans-serif;
-    height: 0px;
-    width: 0px;
-
-}
-
-.div__contactenos h3:hover{
-    background-color: rgba(1, 9, 124, 0.5);
-    transform: scale(1.2);
-}
-.boton__contactenos{
-    width: 188px;
-    opacity: 70%;
-    justify-content: center;
-    display: flex;
-    left: 650px;
-    top: 500px;
-    position: absolute;
-    color: white;
-    border-style: solid;
-    border-radius: 8px;
-    padding: 13px;
-}
 
 .antlogistica{
     font-family: 'League Spartan', sans-serif;
@@ -121,15 +16,13 @@
 }
 
 .flex-icon{
-    width: 90%;
-    height: 450px;
     margin: none;
     display: flex;    
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
-    padding: 40px 60px ; 
+    padding: 40px 60px ;
 }
 
 .flex-icon img{
@@ -171,20 +64,21 @@ height: 450px;
 
 .articulo{
     text-align: center;
-    
+    margin: 0px;
 }
 
 .articulo h3{
     font-family: 'Roboto', sans-serif;
     color: #1b0066;
     font-size: 30PX;
-
+    margin: 0px;
 }
 
 .articulo p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: grey;
+    margin: 2px;
 }
 /*footer*/
 .footer{
@@ -208,7 +102,7 @@ height: 450px;
     background-color:white ;
 }
 .div2 { grid-area:parrafo;
-    padding: 30px 10px; 
+    padding: 30px 10px 15px; 
 }
 .div3 { grid-area: parrafo2;
     padding: 10px 10px 20px 10px; 
@@ -237,6 +131,10 @@ height: 450px;
     font-size: 15px;
     color: rgb(255, 244, 244);
 }
+
+.datos p{
+    margin-bottom: 5px;
+}
 .datos__cap{
     font-size: 30px;
 }
@@ -244,7 +142,7 @@ height: 450px;
 .final p{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: rgb(255, 244, 244);    
+    color: rgb(255, 244, 244);  
 }
 
 .final a{
@@ -260,22 +158,27 @@ height: 450px;
 .caja1__footer{
     width: 200px;
     height: 36px;
+    margin: 0px;
 }
 .caja2__footer{
     width: 160px;
-    height: 36px;   
+    height: 36px;
+    margin: 0px;   
 }
 .caja3__footer{
     width: 160px;
     height: 36px;
+    margin: 0px;
 }
 .caja4__footer{
     width: 160px;
     height: 36px;
+    margin: 0px;
 }
 .caja5__footer{
     width: 250px;
     height: 36px;
+    margin: 0px;
 }
 
 /*css  de contacto*/
@@ -289,14 +192,14 @@ height: 450px;
 }*/
 
 .titulo{
-    width: 1459px;
     font-family: 'League Spartan', sans-serif;
     color: white;
     background-image:linear-gradient(to bottom,#ff6600e5,#1b0066);
     font-size: 60px;
     display: flex;
     justify-content: center;
-    padding: 30px;     
+    padding: 10px;
+    margin: 0px;     
 }
 
 .parrafo{
@@ -304,7 +207,9 @@ height: 450px;
     color: white ;
     background-color: #1b0066;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
+    margin: 0px;
+    font-size: 25px;
 }
 
 
@@ -312,8 +217,7 @@ height: 450px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: rgb(65, 63, 63);
-    padding: 50px;
-    width:1400px ;
+    padding: 50px;;
 }
 .input{
     padding: 8px;
@@ -397,7 +301,6 @@ height: 450px;
     font-family: 'Roboto', sans-serif;
     color: rgb(65, 63, 63);
     padding: 50px;
-    width:1400px ;
 }
 
 .zona-comentario{
@@ -413,9 +316,9 @@ height: 450px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    width: 90%;
+
     height: 540px;
-    padding: 50px;  
+    padding: 40px;  
 
 }
 
@@ -426,9 +329,8 @@ height: 450px;
     width: 1400px;
     height: 50px;
     padding: 50px;
-
+    margin: 0px;
 }
-
 
 
 
