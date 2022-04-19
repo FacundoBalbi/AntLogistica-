@@ -9,9 +9,8 @@
 .antlogistica{
     font-family: 'League Spartan', sans-serif;
     color: #1b0066 ;
-    font-size: 75px;
+    font-size: 60px;
     display: flex;
-    justify-content: center;
     padding: 30px;     
 }
 
@@ -29,8 +28,9 @@
     display: block;
     margin: auto;
     width: 150px;
-    height: 150px; 
+    height: 150px;
 }
+
 .flex-icon p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -41,23 +41,23 @@
 
 .caja1{
 width: 350px;
-height: 450px;
+height: 220px;
 }
 
 .caja2{
     width: 350px;
-    height: 450px
+    height: 220px
 }
 
 .caja3{
     width: 350px;
-    height: 450px;
+    height: 220px;
 
 }
 
 .caja4{
     width: 350px;
-    height: 450px;
+    height: 220px;
 
     
 }
@@ -80,43 +80,14 @@ height: 450px;
     color: grey;
     margin: 2px;
 }
-/*footer*/
+/*FOOTER*/
+
 .footer{
     background-image: linear-gradient(to top,#ff6600e5,#1f0172,#1b0066);
 }
-.footer__grid{
-    display: grid;
-    grid-template-areas: 'pie pie pie'
-                        'costado parrafo costado2'
-                        'costado parrafo2 costado2'
-                        'costado parrafo3 costado2'
-                        'fin fin fin';                    
-}
 
-.footer__grid div{
-    text-align: center;    
-}
-
-.div1 { 
-    grid-area: pie;
-    background-color:white ;
-}
-.div2 { grid-area:parrafo;
-    padding: 30px 10px 15px; 
-}
-.div3 { grid-area: parrafo2;
-    padding: 10px 10px 20px 10px; 
-}
-.div4 { grid-area: parrafo3;
-    padding: 20px 10px; 
-}
-.div5 { grid-area: costado; 
-}
-.div6 { grid-area: costado2; 
-}
-.div7 { 
-    grid-area: fin;
-    padding: 5px;
+.container1{
+    background-color: white;
 }
 
 .antlogistica__1{
@@ -149,47 +120,7 @@ height: 450px;
     color: white;
 }
 
-
-.div__final{
-    display: flex;
-    justify-content: space-between;
-}
-
-.caja1__footer{
-    width: 200px;
-    height: 36px;
-    margin: 0px;
-}
-.caja2__footer{
-    width: 160px;
-    height: 36px;
-    margin: 0px;   
-}
-.caja3__footer{
-    width: 160px;
-    height: 36px;
-    margin: 0px;
-}
-.caja4__footer{
-    width: 160px;
-    height: 36px;
-    margin: 0px;
-}
-.caja5__footer{
-    width: 250px;
-    height: 36px;
-    margin: 0px;
-}
-
 /*css  de contacto*/
-
-/*.back-general{
-    background-image: url('../assets/img/back-general.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 100%;
-}*/
 
 .titulo{
     font-family: 'League Spartan', sans-serif;
