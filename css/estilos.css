@@ -65,6 +65,7 @@ height: 220px;
 .articulo{
     text-align: center;
     margin: 0px;
+
 }
 
 .articulo h3{
@@ -242,25 +243,18 @@ height: 220px;
 
 /*css  de Nosotros*/
 
-.img-nosotros{
-    background-image: url('../assets/img/nosotros.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 
-    height: 540px;
-    padding: 40px;  
-
+.articulo2{
+    text-align: center;
+    margin: 0px;
 }
 
-.nosotros{
-    text-align: center;
+.articulo2 p{
     font-family: 'Roboto', sans-serif;
-    color: rgb(65, 63, 63);
-    width: 1400px;
-    height: 50px;
-    padding: 50px;
-    margin: 0px;
+    font-size: 15px;
+    color: grey;
+    margin: 2px;
+    padding: 30px;
 }
 
 

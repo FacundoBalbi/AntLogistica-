@@ -14,38 +14,36 @@
     <title>AntLogistica</title>
 </head>
 <body>  
-    <header>        
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom" style="padding:0px"> 
-            <div class="container-fluid" style="padding:0px">
-                <a class="navbar-brand" style="margin:0px" href="../index.html">
-                <img src="../assets/img/AntLogistica.jpg"  width="500" height="100" class="d-inline-block align-text-top" hrf></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse justify-content-end">
+<header>        
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand m-0"></a>
+            <img src="../assets/img/AntLogistica.jpg"  width="358" height="100" class="d-inline-block align-text-top p-1"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav nav-itemx pt-5">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link"  href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/recomendacion.html">Recomendacion</a>
                     </li>
-    
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                     </li>
-    
                     <li>
                         <a class="nav-link" href="../pages/contactenos.html">Contactenos</a>
                     </li>
                 </ul>
             </div>
-            </div>
-        </nav>       
-    </header>
+        </div>
+    </nav>       
+</header>
 
 <main>
     <div>
@@ -53,71 +51,81 @@
             <h1 class="titulo"">Nosotros</h1>
             <h2 class="parrafo">Somos una familia que nos dedicamos a darte lo mejor</h2>
         </div>
-
-        <div class="img-nosotros">
-        </div>
-
-        <div>
-            <p class="nosotros">
-                Somos una familia que emprendimos con este proyecto que no tiene techo. Trabajamos todos los dias para darte el mejor servicio a nivel calidad, rapidez, seguridad y confianza. Buscamos crecer todos los dias para que usted el dia de mañana pueda llegar mas lejos nosotros contigo y ustedes con nosotros.
-            </p>
-        </div>
+        <div class="img-nosotros"></div>
     </div>
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/img/foto-nosotros.jpg" class="d-block w-100" alt="..." style="height: 565px;">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        <div class="carousel-item">
+            <img src="../assets/img/foto2-nosotros.jpg" class="d-block w-100" alt="..." style="height: 565px;">
+            <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section>
+        <article>
+            <div class="articulo2">               
+                <p>Somos una familia que emprendimos con este proyecto que no tiene techo. 
+                Trabajamos todos los dias para darte el mejor servicio a nivel calidad, rapidez, seguridad y confianza.
+                Buscamos crecer todos los dias para que usted el dia de mañana pueda llegar mas lejos nosotros contigo y ustedes con nosotros.
+                </p>                          
+            </div> 
+        </article>
+    </section>
 </main>
 
-<footer class="footer">
-    <section>
-        <div class="footer__grid">
-            <div class="div1">
-                <h2 class="antlogistica__1">AntLogistica</h2>
-            </div>
+<footer class="footer">    
+<div class="container1">
+    <div class="row row-cols-auto justify-content-center text-center m-0">    
+        <div class="col"><h2 class="antlogistica__1 m-1">AntLogistica</h2></div>    
+    </div>            
+</div>
     
-            <div class="div2">
-                <div class="datos">  
-                    <p class="datos__cap">Capital Federal</p>
+<div class="container">
+    <div class="row row-cols-auto justify-content-center text-center">
+        <div class="datos">
+            <h3 class="col m-4">Capital Federal</h3>
+                <p class="col" >Av.Cordoba 4800</p>
+                <p class="col">Villa Crespo,Capital Federal</p>
+                <p class="col">Argentina 1414</p>           
+                <P class="col">Tel:+54 11 2345-6789</P>
+                <div class="col m-4">
+                    <a href="https://www.instagram.com/antlogistica/" target="blank" ><img src="../assets/img/instagram.png " alt="Instagram" width="50"></a>          
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img src="../assets/img/email.png" alt="Email" width="50"></a>
                 </div>
-            </div>
-            
-            <div class="div3">
-                <div class="datos">
-                    <p>Av.Cordoba 4800</p>
-                    <p>Villa Crespo,Capital Federal</p>
-                    <p>Argentina 1414</p>           
-                    <P>Tel:+54 11 2345-6789</P>
-                </div>
-            </div>
-            
-            <div class="div4">
-                <a href="https://www.instagram.com/antlogistica/" target="blank"><img src="../assets/img/instagram.png " alt="Instagram" width="50"></a>          
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img src="../assets/img/email.png" alt="Email" width="50"></a>
-            </div>
-    
-            <div class="div5"></div>
-            <div class="div6"></div>
-    
-            <div class="div7">
-                <nav class="final">
-                    <div class="div__final">            
-                        <p class="caja1__footer">antlogistica@gmail.com</p>
-            
-                        <a href="../pages/contactenos.html">
-                            <p class="caja2__footer">Contactenos</p>
-                        </a>
-            
-                        <a href="../index.html">
-                            <p class="caja3__footer">Inicio<p>                    
-                        </a>
-            
-                        <a href="../pages/contacto.html">
-                            <p class="caja4__footer">Contacto</p>
-                        </a>
-            
-                            <p class="caja5__footer">AntLogistica Copyright 2022</p>
-                    </div>       
-                </nav>
-            </div>
-        </div>                               
-    </section>
+        </div>
+    </div>        
+</div>
+        
+<div class="container">
+    <div class="final">
+        <div class="row row-cols-auto" style="justify-content: space-between;">            
+            <div class="col"><p>antlogistica@gmail.com</p></div>
+            <div class="col"><a href="../pages/contactenos.html">Contactenos</a></div>
+            <div class="col"><a href="../index.html">Inicio</a></div>
+            <div class="col"><a href="../pages/contacto.html">Contacto</a></div>
+            <div class="col"><p>antlogistica Copyright 2022</p></div>
+        </div>
+    </div>
+</div>      
 </footer>
 <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
